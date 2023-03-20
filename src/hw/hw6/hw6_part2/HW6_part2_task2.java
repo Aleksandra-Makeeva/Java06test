@@ -22,5 +22,23 @@ public class HW6_part2_task2 {
             }
         }
         System.out.println(count);
+
+
+        s1 = "Перевыборы выбранного президента";
+
+        int index = s1.indexOf("е");
+        int j = 0;
+        int i = 0;
+        while ( i<s1.length() && i != -1) {
+            index = s1.indexOf("е", index+1);
+            i = index;
+            j++;
+        }
+
+        System.out.println("Символ Е встречается " + j + " раз");
+
+
     }
+
+
 }

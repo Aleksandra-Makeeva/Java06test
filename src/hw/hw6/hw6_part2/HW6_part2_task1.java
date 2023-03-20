@@ -32,5 +32,8 @@ public class HW6_part2_task1 {
 
 
         }
+
+
+
     }
 }

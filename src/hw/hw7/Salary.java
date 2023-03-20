@@ -1,5 +1,7 @@
 package hw.hw7;
 
+import java.util.Arrays;
+
 public class Salary {
 
     int salary;
@@ -8,13 +10,13 @@ public class Salary {
 
     public int getSum(Employee[] employeeArray){
 
-      employeeArray = employee.employeeArray;
-
         int sum = 0;
 
-        for (int i = 0; i < employee.employeeArray.length; i++) {
+        for (int i = 0; i < employeeArray.length; i++) {
 
-        sum += employee.employeeArray[i];
+            System.out.println(employeeArray[i].salary);
+
+           sum += employeeArray[i].salary;
 
         }
 

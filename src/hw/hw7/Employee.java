@@ -20,7 +20,6 @@ public class Employee {
 
     int[] employeeArray;
 
-
     public boolean isSameName(Employee employee) {
         if (employee.name == name) {
 
@@ -30,25 +29,6 @@ public class Employee {
         }
 
     }
-
-    public void setEmployeeArray(int [] employeeArray)
-    {
-        this.employeeArray = employeeArray;
-
-    } ;
-
-    public int getSum(Employee[] employeeArray){
-
-        this.employeeArray = employeeArray;
-        int sum = 0;
-
-        for (int i = 0; i < employeeArray.length; i++)
-            sum += employeeArray[i];
-
-        return sum;
-    }
-
-
 
 }
 

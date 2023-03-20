@@ -27,10 +27,10 @@ public class HW7_task1 {
         janeEmp.name = "Janee";
         janeEmp.salary = 500;
 
-        System.out.println(janeEmp.isSameName(janeEmp));
-        System.out.println(johnEmp.isSameName(janeEmp));
+//        System.out.println(janeEmp.isSameName(janeEmp));
+//        System.out.println(johnEmp.isSameName(janeEmp));
 
-        //System.out.println(johnSalary.getSum(new Employee[]{johnEmp, janeEmp}));
+        System.out.println(johnSalary.getSum(new Employee[]{johnEmp, janeEmp}));
 
        // System.out.println(janeEmp.setEmployeeArray(new int[] {100, 200}));
 

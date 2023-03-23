@@ -6,13 +6,16 @@ public class Main {
 
         Util util = new Util();
 
-        Employee adam = new Employee();
-        adam.setName("Adam");
+        Employee sam = new Employee();
+        sam.setName("Sam");
+
 
         Employee alex = new Employee();
         alex.setName("Alex");
 
-       // System.out.println(util.searchNameWorker("Alex"));
+
+
+       //System.out.println(util.searchNameWorker("Alex"));
         System.out.println();
 
     }
